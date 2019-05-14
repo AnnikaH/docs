@@ -6,9 +6,7 @@ Contributing to IncludeOS
 Clone, edit and send us a pull request on GitHub
 ------------------------------------------------
 
-IncludeOS is being developed on GitHub. Clone the `repository <https://github.com/hioa-cs/IncludeOS>`__, send us a `pull request <https://help.github.com/articles/using-pull-requests>`__ and `chat with us on Slack <https://goo.gl/NXBVsc>`__.
-
-Send any and all pull requests to the `dev-branch <https://github.com/hioa-cs/IncludeOS/tree/dev>`__. It's ok if it comes from your master branch.
+IncludeOS is being developed on GitHub. Clone the `repository <https://github.com/includeos/IncludeOS>`__, send us a `pull request <https://help.github.com/articles/using-pull-requests>`__ and `chat with us on Slack <https://goo.gl/NXBVsc>`__.
 
 Guidelines
 ~~~~~~~~~~
@@ -35,7 +33,7 @@ If you're making drastic changes to a file, but mostly adding comments, reformat
 
 **5. Please don't redo the folder-structure**
 
-If you have suggestions for this, just post an `issue <https://github.com/hioa-cs/IncludeOS/issues>`__ explaining the benefits of your suggested structure.
+If you have suggestions for this, just post an `issue <https://github.com/includeos/IncludeOS/issues>`__ explaining the benefits of your suggested structure.
 
 Code formatting
 ~~~~~~~~~~~~~~~
@@ -116,7 +114,7 @@ Code formatting
 
 	  ///////////////////////////////////////////////////////////////////////////////
 	  struct Dirent {
-	
+
 	    ///////////////////////////////////////////////////////////////////////////////
 	    explicit Dirent(File_system* fs, const Enttype t = INVALID_ENTITY, const std::string& n = "",
 	                  const uint64_t blk   = 0, const uint64_t pr    = 0,
@@ -146,12 +144,13 @@ Code formatting
 
 - If your editor supports :code:`.editorconfig`, use it.
 
+
 Issue tracker
 -------------
 
-Post any issues not already mentioned, in the `issue tracker on GitHub <https://github.com/hioa-cs/IncludeOS/issues>`__. You can also post questions not answered by editing the :ref:`FAQ` on GitHub.
+Post any issues not already mentioned, in the `issue tracker on GitHub <https://github.com/includeos/IncludeOS/issues>`__. You can also post questions not answered by editing the :ref:`FAQ` on GitHub.
 
-Gitter chat
------------
+Chat on Slack
+-------------
 
-We are usually present in our `public gitter channel <https://gitter.im/hioa-cs/IncludeOS>`__ for any kinds of questions.
+We are usually present in our `Slack channel <https://goo.gl/NXBVsc>`__ for any kind of questions.

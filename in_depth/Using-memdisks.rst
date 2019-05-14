@@ -42,7 +42,7 @@ Now, the files and folders from your memdisk are available using normal C/C++ fi
 
 Traditional C-style file functions (``fopen()``, ``fgets()``, ``fread()`` and friends) as well as POSIX functions (``open()``, ``read()`` etc.) are also available.
 
-It's also possible to use memdisks without mounting them in the Virtual File Systems and to use the native IncludeOS file system functionality, see `this example <https://github.com/hioa-cs/IncludeOS/tree/master/test/fs/integration/memdisk>`__ for more information.
+It's also possible to use memdisks without mounting them in the Virtual File Systems and to use the native IncludeOS file system functionality, see `this example <https://github.com/includeos/IncludeOS/tree/master/test/fs/integration/memdisk>`__ for more information.
 
 
 Addendum: ``memdisk()`` helper function:
